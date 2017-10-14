@@ -1,4 +1,4 @@
-@alphavit = 'abcdefghijklmnopqrstuvwxyz'.split("")
+@alphavit = ("a".."z").to_a
 
 def caesar_cipher(string, key=1)
 	cipher = string.split.map! do |word| 
